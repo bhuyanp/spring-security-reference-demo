@@ -35,14 +35,14 @@ To turn on basic OAuth example do the reverse.
 
 Also, update application.properties for Google and GitHub oauth client details.
 
-####Google:
+#### Google:
 Follow these basic steps to create google oauth client id/secret
 https://developers.google.com/identity/protocols/oauth2#basicsteps
 
-spring.security.oauth2.client.registration.google.client-id=
+spring.security.oauth2.client.registration.google.client-id=<br>
 spring.security.oauth2.client.registration.google.client-secret=
 
-####GitHub:
-spring.security.oauth2.client.registration.github.client-id=
+#### GitHub:
+spring.security.oauth2.client.registration.github.client-id=<br>
 spring.security.oauth2.client.registration.github.client-secret=
 
